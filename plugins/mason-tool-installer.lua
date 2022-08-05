@@ -4,7 +4,7 @@ return {
     "black",
     "isort",
     "prettierd",
-    "shfmt",
+--     "shfmt",
     "stylua",
   },
 }

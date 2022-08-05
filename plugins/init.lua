@@ -32,6 +32,6 @@ return {
   ["phaazon/hop.nvim"] = require "user.plugins.hop",
   ["rcarriga/nvim-dap-ui"] = require "user.plugins.dapui",
   ["vitalk/vim-simple-todo"] = require "user.plugins.vim-simple-todo",
-  ["wakatime/vim-wakatime"] = require "user.plugins.vim-wakatime",
+--   ["wakatime/vim-wakatime"] = require "user.plugins.vim-wakatime",
   ["ziontee113/syntax-tree-surfer"] = require "user.plugins.syntax-tree-surfer",
 }
