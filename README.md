@@ -20,6 +20,8 @@ git clone https://github.com/Vishal-Isharani/my-nvim-setup ~/.config/nvim/lua/us
 
 ```sh
 git pull https://code.mehalter.com/AstroNvim_user master --allow-unrelated-histories --no-ff
+Or
+git pull https://code.mehalter.com/projects/68 master --allow-unrelated-histories --no-ff
 ```
 
 - Initialize AstroVim
