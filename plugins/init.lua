@@ -1,5 +1,5 @@
 return {
-  ["declancm/cinnamon.nvim"] = { disable = true },
+  ["declancm/cinnamon.nvim"] = { disable = false },
   ["famiu/bufdelete.nvim"] = { disable = true },
   ["goolord/alpha-nvim"] = { disable = true },
   ["lukas-reineke/indent-blankline.nvim"] = { disable = true },
@@ -32,6 +32,10 @@ return {
   ["phaazon/hop.nvim"] = require "user.plugins.hop",
   ["rcarriga/nvim-dap-ui"] = require "user.plugins.dapui",
   ["vitalk/vim-simple-todo"] = require "user.plugins.vim-simple-todo",
---   ["wakatime/vim-wakatime"] = require "user.plugins.vim-wakatime",
+  --   ["wakatime/vim-wakatime"] = require "user.plugins.vim-wakatime",
   ["ziontee113/syntax-tree-surfer"] = require "user.plugins.syntax-tree-surfer",
+  -- ["kevinhwang91/nvim-ufo"] = { requires = "kevinhwang91/promise-async" },
+  ["ThePrimeagen/refactoring.nvim"] = { requires = { { "nvim-lua/plenary.nvim" }, { "nvim-treesitter/nvim-treesitter" } } },
+  ["sindrets/diffview.nvim"] = { requires = { { "nvim-lua/plenary.nvim" } } },
+  ["glepnir/lspsaga.nvim"] = require "user.plugins.lspsaga",
 }
