@@ -21,6 +21,12 @@ return {
         F = { function() require("neogen").generate { type = "file" } end, "File" },
       },
 
+      -- c = {
+      --   name = "Lspsaga",
+      --   a = { "<cmd>Lspsaga code_action<CR>", "Code Action" },
+      --   d = { "<cmd>Lspsaga preview_definition<CR>", "Preview Defination" },
+      -- },
+
       f = {
         name = "Telescope",
         ["?"] = { "<cmd>Telescope help_tags<cr>", "Find Help" },

@@ -32,6 +32,8 @@ return {
     ["<leader>sm"] = false,
     ["<leader>sn"] = false,
     ["<leader>sr"] = false,
+    -- lsp re bindings
+    ["<leader>lR"] = { "<cmd>Lspsaga rename<CR>", desc = "Rename current symbol" },
     -- resize with arrows
     ["<Up>"] = { function() require("smart-splits").resize_up(2) end, desc = "Resize split up" },
     ["<Down>"] = { function() require("smart-splits").resize_down(2) end, desc = "Resize split down" },
@@ -54,7 +56,7 @@ return {
   },
   i = {
     -- type template string
---     [";mk"] = { "<++>", desc = "Insert template string" },
+    --     [";mk"] = { "<++>", desc = "Insert template string" },
     ["<S-Tab>"] = { "<C-V><Tab>", desc = "Tab character" },
   },
   v = {
